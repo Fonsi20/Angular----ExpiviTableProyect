@@ -1,3 +1,10 @@
+# Author: Alfonso Fernández Álvarez
+
+<img src="img/exp4.png"/>
+<img src="img/exp3.png"/>
+<img src="img/exp2.png"/>
+<img src="img/exp1.png"/>
+
 # Inline Edit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
