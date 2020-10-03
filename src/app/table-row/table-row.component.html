@@ -1,0 +1,42 @@
+<div class="main">
+  <form>
+    <h1><strong>Hello</strong> - {{name}}</h1>
+    <p>
+      It's time to edit information.
+    </p>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>
+        <p style="color: black;">Name</p>
+      </mat-label>
+      <input [(ngModel)]="name" [ngModelOptions]="{standalone: true}" matInput value='{{name}}'>
+    </mat-form-field>
+
+
+
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field class="example-full-width">
+            <mat-label>
+              <p style="color: black;">Phone Number</p>
+            </mat-label>
+            <input [(ngModel)]="phone" [ngModelOptions]="{standalone: true}" matInput value='{{phone}}'>
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="example-full-width">
+            <mat-label>
+              <p style="color: black;">Email</p>
+            </mat-label>
+            <input [(ngModel)]="email" [ngModelOptions]="{standalone: true}" matInput value='{{email}}'>
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+    <div class="buttons-section">
+      <button (click)="goBack()" class="btn btn-primary btn-sm btn-cancel">Cancel</button>
+      <button (click)="save()" class="btn btn-primary btn-sm btn-save">Save</button>
+    </div>
+  </form>
+</div>

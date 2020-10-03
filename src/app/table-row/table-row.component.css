@@ -1,0 +1,54 @@
+.main {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+
+  color: orange !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+
+  background-color: orange !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+
+  background-color: orange !important;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+
+.btn-save {
+  background: #31b0d5;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.btn-cancel {
+  background: #f44336;
+  width: 200px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.buttons-section {
+  margin-top: 20px;
+}
